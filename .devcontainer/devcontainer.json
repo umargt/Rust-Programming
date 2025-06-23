@@ -1,0 +1,14 @@
+{
+  "name": "Rust DevContainer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+    "rust-lang.rust-analyzer"
+  ],
+  "postCreateCommand": "cargo build",
+  "remoteUser": "vscode"
+}
